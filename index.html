@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-NJOY</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="notice">⚠ INTERFACE PROTOTYPE — E-NJOY works with files selected from this computer.</div>
+
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <h1>E-NJOY</h1>
+        <p>Your digital world. Anywhere.</p>
+      </div>
+      <div class="clock" id="clock">--:--</div>
+    </header>
+
+    <section id="home" class="page active">
+      <div class="welcome">
+        <h2>My Library</h2>
+        <p>Choose something to enjoy.</p>
+      </div>
+
+      <div class="cards">
+        <button class="card" data-page="books">
+          <span class="icon">📚</span><strong>BOOKS</strong><small>Read e-books & PDFs</small>
+        </button>
+        <button class="card" data-page="videos">
+          <span class="icon">🎬</span><strong>VIDEOS</strong><small>Watch your videos</small>
+        </button>
+        <button class="card" data-page="music">
+          <span class="icon">🎵</span><strong>MUSIC</strong><small>Play your music</small>
+        </button>
+        <button class="card" data-page="gallery">
+          <span class="icon">🖼️</span><strong>GALLERY</strong><small>View your images</small>
+        </button>
+        <button class="card" data-page="files">
+          <span class="icon">📁</span><strong>FILES</strong><small>Browse your files</small>
+        </button>
+        <button class="card" data-page="settings">
+          <span class="icon">⚙️</span><strong>SETTINGS</strong><small>Configure E-NJOY</small>
+        </button>
+      </div>
+
+      <div class="import-box">
+        <div>
+          <h3>Add content</h3>
+          <p>Select files from your computer. They appear in the relevant E-NJOY section.</p>
+        </div>
+        <button class="primary" id="importBtn">Choose files</button>
+        <input id="fileInput" type="file" multiple hidden>
+      </div>
+    </section>
+
+    <section id="books" class="page">
+      <div class="page-head"><div><button class="back" data-page="home">← Home</button><h2>Books</h2><p>PDF and ebook files</p></div><button class="primary" data-import>+ Add books</button></div>
+      <div class="library" id="booksList"></div>
+      <div class="empty" id="booksEmpty">No books yet. Add a PDF to get started.</div>
+    </section>
+
+    <section id="videos" class="page">
+      <div class="page-head"><div><button class="back" data-page="home">← Home</button><h2>Videos</h2><p>Your local video library</p></div><button class="primary" data-import>+ Add videos</button></div>
+      <div class="library" id="videosList"></div>
+      <div class="empty" id="videosEmpty">No videos yet.</div>
+    </section>
+
+    <section id="music" class="page">
+      <div class="page-head"><div><button class="back" data-page="home">← Home</button><h2>Music</h2><p>Your local music library</p></div><button class="primary" data-import>+ Add music</button></div>
+      <div class="library" id="musicList"></div>
+      <div class="empty" id="musicEmpty">No music yet.</div>
+      <div class="player" id="audioPlayerBox" hidden>
+        <div class="player-title"><span id="nowPlaying">Nothing playing</span><span id="audioTime">0:00</span></div>
+        <input class="range" id="audioSeek" type="range" min="0" max="100" value="0">
+        <div class="player-controls">
+          <button id="playPause">▶ Play</button>
+          <label>Volume <input id="volume" type="range" min="0" max="1" step=".01" value=".8"></label>
+        </div>
+        <audio id="audio"></audio>
+      </div>
+    </section>
+
+    <section id="gallery" class="page">
+      <div class="page-head"><div><button class="back" data-page="home">← Home</button><h2>Gallery</h2><p>Your local images</p></div><button class="primary" data-import>+ Add images</button></div>
+      <div class="gallery-grid" id="galleryList"></div>
+      <div class="empty" id="galleryEmpty">No images yet.</div>
+    </section>
+
+    <section id="files" class="page">
+      <div class="page-head"><div><button class="back" data-page="home">← Home</button><h2>Files</h2><p>Everything imported into E-NJOY</p></div><button class="primary" data-import>+ Add files</button></div>
+      <div class="file-list" id="filesList"></div>
+      <div class="empty" id="filesEmpty">Your file list is empty.</div>
+    </section>
+
+    <section id="settings" class="page">
+      <div class="page-head"><div><button class="back" data-page="home">← Home</button><h2>Settings</h2><p>Simple E-NJOY preferences</p></div></div>
+      <div class="settings">
+        <label class="setting"><span><strong>Dark interface</strong><small>Use the E-NJOY dark theme.</small></span><input id="darkMode" type="checkbox" checked></label>
+        <label class="setting"><span><strong>Large text</strong><small>Make library text easier to read.</small></span><input id="largeText" type="checkbox"></label>
+        <div class="setting info"><span><strong>Imported files</strong><small id="fileCount">0 files</small></span><button class="danger" id="clearFiles">Clear library</button></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="viewer" id="viewer" hidden>
+    <div class="viewer-top"><strong id="viewerTitle">Preview</strong><button id="closeViewer">✕</button></div>
+    <div class="viewer-content" id="viewerContent"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
