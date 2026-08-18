@@ -46,6 +46,6 @@ I am excited to turn this idea into a real, working device and document the proc
 Built by a student. Designed for students and makers.
 — _**Mokshgna**_
 
-                                                              **E-NJOY**
-                                                   **Your digital world. Anywhere.**
-                                            **Open Source • Student Built • Raspberry Pi 5**
+                                                              E-NJOY
+                                                   Your digital world. Anywhere.
+                                            Open Source • Student Built • Raspberry Pi 5
