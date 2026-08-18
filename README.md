@@ -1,240 +1,95 @@
 # E-NJOY
 
-## A Student-Built Portable Digital Media Device
+## A Student Based Portable Digital Media Device
 
-> **E-NJOY is a student-designed portable digital media and e-book device for reading, watching, listening to, and managing personal digital content offline.**
+> E-NJOY is a student designed portable digital media and e-book device for reading, watching, listening and managing personal digital content offline.
 
-⚠️ **Current status: INTERFACE PROTOTYPE — The physical E-NJOY hardware has not been built yet. This project is being developed as a hardware prototype and is seeking funding for the first physical build.**
-
----
-
-## What is E-NJOY?
-
-E-NJOY is a portable device designed to let users keep and enjoy their own digital content without depending on a phone or laptop.
-
-The planned device will focus on:
-
-- 📚 Reading e-books and PDFs
-- 🎬 Watching locally stored videos
-- 🎵 Playing music
-- 🖼️ Viewing images
-- 📁 Managing files
-- 🔌 Copying files from USB storage
-- 🎧 Using wired headphones
-- 📡 Supporting Bluetooth wireless audio
-- 🖥️ Using a touchscreen interface
-- 🔋 Portable battery-powered use
-
-The goal is to create a simple, dedicated device for personal digital media.
+⚠️ INTERFACE PROTOTYPE - The Physical E-NJOY hardware isn't built yet. This is a hardware prototyping based project and I'm raising funds for the first physical prototype.
 
 ---
 
-## Why I am building it
+## About E-NJOY
 
-Students and other users often need to switch between phones, laptops, books, USB drives, and different applications just to access their own digital content.
+E-NJOY is a portable device that enables a user to store and enjoy his/her own digital content without relying on a phone or a laptop.
 
-E-NJOY is my attempt to build a dedicated device that combines these basic functions into one portable system.
-
-Instead of making another phone or laptop, I want E-NJOY to be a focused device for offline digital content.
+The device is intended to offer an experience of reading e-books, watching videos stored on the device, listening to music, viewing images and managing files alongwith other features such as USB storage device read capability, wired headphone support, bluetooth audio support, touchscreen interface and portable battery powered operation. My intention is to create simple device that serves a purpose of personal digital content management and consumption.
 
 ---
 
-## Planned Hardware
+## Why I'm building it
 
-The first physical prototype is planned around a Raspberry Pi computer.
+Students as well as other users need to switch between their phone, laptop/desktop, physical books, USB storage drives, apps etc in order to manage and consume their digital content today. E-NJOY is my idea of creating a consolidated device which can offer all the basic features needed for managing and consuming one's own digital content.
 
-### Main components
-
-- Raspberry Pi 5
-- 7-inch touchscreen display
-- MicroSD storage
-- Portable power source
-- Stereo speakers
-- USB-A port
-- USB-C port
-- 3.5mm headphone connection
-- Bluetooth audio support
-- Physical power and volume controls
-- Cooling system
-- Enclosure
-- Required cables, adapters and electronic components
-
-The final hardware design may change during prototyping depending on compatibility, availability and testing.
+Instead of building another smartphone or laptop, I'm trying to build a personal digital content management device called E-NJOY which can be used as a companion to one's primary device (phone/laptop).
 
 ---
 
 # Interface Prototype
 
-A working web-based interface prototype has been created to demonstrate the planned E-NJOY user interface.
+A working web interface prototype has been created to show the intended E-NJOY device interface.
 
-The prototype currently contains:
+It contains
 
-- Books
-- Videos
-- Music
-- Gallery
-- Files
-- Settings
-- Clock
-- Touch-friendly dashboard layout
+Books
 
-The prototype is **not being presented as the finished hardware**. It is a visual and software demonstration of the planned interface.
+,
 
----
+Videos
 
-# Planned Features
+,
 
-## Books
+Music
 
-The finished device is planned to support:
+,
 
-- PDF files
-- EPUB/e-books
-- Local document storage
-- Touchscreen reading
+Gallery
 
-## Videos
+,
 
-The device is planned to play locally stored video files.
+Files
 
-## Music
+,
 
-The device is planned to support local music playback through:
+Settings
 
-- Built-in speakers
-- 3.5mm headphones
-- Bluetooth audio
+,
 
-## Gallery
+Clock
 
-Users will be able to browse locally stored images.
-
-## Files
-
-The file manager is planned to allow users to:
-
-- Browse files
-- Organize content
-- Copy content from USB storage
-- Access files stored on the device
-
-## Settings
-
-The settings area will eventually provide controls for device configuration, display, audio and other options.
-
----
-
-# Planned Hardware Budget
-
-The requested funding target is **₹23,000**.
-
-This is an estimated first-build budget. Prices may change depending on component availability and final specifications.
-
-| Component | Estimated Cost |
-|---|---:|
-| Raspberry Pi 5 (8GB) | ₹8,500 |
-| 7-inch touchscreen display | ₹3,500 |
-| MicroSD card | ₹900 |
-| Device enclosure / case materials | ₹1,500 |
-| Portable power source | ₹2,000 |
-| Stereo speakers | ₹600 |
-| USB storage | ₹1,000 |
-| USB-C cables and adapters | ₹700 |
-| USB hub / expansion components | ₹700 |
-| Physical buttons and switches | ₹500 |
-| 3.5mm audio connection/components | ₹300 |
-| Cooling components | ₹600 |
-| Display/connection cables | ₹500 |
-| Spare electronics and miscellaneous parts | ₹700 |
-| **TOTAL** | **₹23,000** |
-
-The budget is intended to cover the complete first physical prototype rather than only a partial build.
-
-If component prices change, I will prioritize the core components first and adjust non-essential parts while keeping the project within the available funding.
-
----
-
-# Development Plan
-
-### Phase 1 — Interface
-- Build the E-NJOY dashboard
-- Create the main application screens
-- Test the interface
-- Improve touchscreen usability
-
-### Phase 2 — Hardware
-- Purchase the required components
-- Assemble the Raspberry Pi system
-- Connect the display
-- Add storage
-- Add speakers and audio
-- Add physical controls
-- Build the enclosure
-
-### Phase 3 — Software
-- Create the device operating interface
-- Implement local file management
-- Add media playback
-- Add e-book/PDF reading
-- Add USB file transfer
-- Add settings
-
-### Phase 4 — Testing
-- Test touchscreen interaction
-- Test audio
-- Test USB storage
-- Test media files
-- Test battery operation
-- Fix hardware and software issues
-
-### Phase 5 — Final Prototype
-- Assemble the final version
-- Improve the enclosure
-- Document the build
-- Demonstrate the finished device
-
----
+etc. A touch based interface has been created to mimic the dashboard of the device. Files are organized as a bookshelf, video library, music library, gallery, and more. The interface prototype isn't supposed to represent the physical device but a digital interface of the device. This prototype is a WIP and is being worked on to add more features.
 
 # Open Source
 
-E-NJOY is intended to be an open-source student project.
-
-The goal is to document the hardware and software so other students and makers can learn from the project and potentially build or modify their own version.
+E-NJOY is intended to be an open source student based project. All hardware and software related work would be open-sourced so that other students and makers can contribute to the project and/or replicate it.
 
 ---
 
-# AI Usage
+# AI Policy
 
-AI was used as a brainstorming and writing assistant during the planning and development of the project.
-
-I am responsible for implementing, modifying, testing and building the project myself.
+An AI tool was used as a brainstorming and writing assistant while working on this project. I myself have implemented, modified, tested and built the showcased prototype.
 
 ---
 
 # Current Project Status
 
-**Stage:** Hardware prototype / Funding requested
+Stage: Hardware prototype / Funding requested
 
-**Current software:** Interface prototype
+Current Project Software: Interface prototype
 
-**Physical hardware:** Not built yet
+Physical Hardware: Not built yet
 
-**Funding goal:** ₹23,000
+Funding Goal: ₹9000 (8352 + some extra for spares I might need to order sometimes)
 
-The next major milestone is to obtain the required components and begin the physical prototype.
+The next step is to obtain the necessary parts and start building the hardware prototype.
 
 ---
 
 ## Project Vision
 
-E-NJOY is not intended to replace a phone or laptop.
+E-NJOY isn't meant to replace your phone/laptop. It's supposed to be a simple personal digital media device that provides end-users with the ability to manage and consume their own digital content. Made by a student and for students and makers like you
 
-It is intended to be a simple, dedicated personal media device that gives users control over their own digital content.
+**Its diagramatic system wiring **
 
-**Built by a student, for students and makers.**
+<img width="1536" height="1024" alt="dca1d11f-eb2c-44bc-8999-f87bd0a2844a" src="https://github.com/user-attachments/assets/e8041832-58c5-4a96-8a1a-dbc10b7a4762" />
 
----
 
-## License
-
-This project is intended to be open source. Licensing details will be added as development progresses.
