@@ -1,17 +1,21 @@
-| #  | Component                               |   Qty | Unit (USD) | Total (USD) |
-| -- | --------------------------------------- | ----: | ---------: | ----------: |
-| 1  | Raspberry Pi Zero 2 W                   |     1 |     $15.00 |      $15.00 |
-| 2  | 7" 1024×600 capacitive HDMI touchscreen |     1 |     $33.20 |      $33.20 |
-| 3  | 64GB microSD card                       |     1 |      $6.00 |       $6.00 |
-| 4  | Mini-HDMI to HDMI cable                 |     1 |      $3.00 |       $3.00 |
-| 5  | USB OTG adapter                         |     1 |      $1.50 |       $1.50 |
-| 6  | 10,000mAh USB power bank                |     1 |     $15.00 |      $15.00 |
-| 7  | PAM8403 5V stereo amplifier             |     1 |      $0.60 |       $0.60 |
-| 8  | 3W 4Ω speaker                           |     2 |      $0.95 |       $1.90 |
-| 9  | Power switch                            |     1 |      $0.50 |       $0.50 |
-| 10 | Push buttons                            |     3 |      $0.10 |       $0.30 |
-| 11 | Perfboard                               |     1 |      $1.00 |       $1.00 |
-| 12 | Jumper wires                            | 1 set |      $1.50 |       $1.50 |
-| 13 | Resistors/capacitors                    | 1 set |      $1.50 |       $1.50 |
-| 14 | Enclosure material                      |     1 |      $5.00 |       $5.00 |
-|    | **TOTAL**                               |       |            |  **$86.00** |
++----+------------------------------------------+-----+------------+------------+
+| #  | Component                                | Qty | Unit (USD) | Total (USD)|
++----+------------------------------------------+-----+------------+------------+
+| 1  | Raspberry Pi Zero 2 W                    |  1  |    $15.00  |    $15.00  |
+| 2  | 7" 1024×600 capacitive HDMI touchscreen  |  1  |    $33.20  |    $33.20  |
+| 3  | 64GB microSD card                        |  1  |     $6.00  |     $6.00  |
+| 4  | Mini-HDMI to HDMI cable                  |  1  |     $3.00  |     $3.00  |
+| 5  | USB OTG adapter                          |  1  |     $1.50  |     $1.50  |
+| 6  | 10,000mAh USB power bank                 |  1  |    $15.00  |    $15.00  |
+| 7  | PAM8403 5V stereo amplifier              |  1  |     $0.60  |     $0.60  |
+| 8  | 3W 4Ω speaker                            |  2  |     $0.95  |     $1.90  |
+| 9  | Power switch                             |  1  |     $0.50  |     $0.50  |
+| 10 | Push buttons                             |  3  |     $0.10  |     $0.30  |
+| 11 | Perfboard                                |  1  |     $1.00  |     $1.00  |
+| 12 | Jumper wires                             | 1 set|     $1.50  |     $1.50  |
+| 13 | Resistors/capacitors                     | 1 set|     $1.50  |     $1.50  |
+| 14 | Enclosure material                       |  1  |     $5.00  |     $5.00  |
+| 15 | Basic soldering kit                      |  1  |    $10.00  |    $10.00  |
++----+------------------------------------------+-----+------------+------------+
+|    | TOTAL                                    |     |            |    $96.00  |
++----+------------------------------------------+-----+------------+------------+
