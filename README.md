@@ -1,51 +1,34 @@
-**E-NJOY**
+E-NJOY
+A Device for fitness anyone to watch or hear  videos or music, read pdfs and E-Books, and other files.
 
-**Hello , Everybody , I am making this project called "E-NJOY" because I have noticed many times we go out we dont have our phones we feel bored and try do some fun - ................... BUT HOW?!!**
+> **A portable device for reading, listening, watching, and accessing your files — without needing a phone.**
+
+<img width="1366" height="649" alt="image" src="https://github.com/user-attachments/assets/36b8d62e-d650-4782-9727-a6f444c4c241" />
+
+**The first interface prototype has been created as a web application. It is being used to experiment with the layout and interaction model before building the touchscreen hardware.**
 
 
-
-E-NJOY is a student-built portable digital media device designed for reading, watching, listening, and managing personal content offline.
-It is a device with touch screen in which I can read pdfs , Watch videos , open and play music and much more .......
+**The current web interface is useful because it allows the interaction design to be tested and changed before committing the physical hardware to a particular layout.**
 
 
-**I have decided to make this to solve the following problems :-**
+**MY DEMO LINK :- https://mokshgna13-glitch.github.io/E-NJOY/**
 
-**1.** **Watch or Read pdfs or maybe even play music when there’s no Internet .**
 
-**2.** **Help us to enjoy our time by watching limited [Our own uploads]**
+ Quick start
+ Step1: Open this link to use the **DEMO UI INTERFACE** -->    **MY DEMO LINK :- https://mokshgna13-glitch.github.io/E-NJOY/**
 
-**It although as all good things have a disadvantage it needs to be charged too.**
+ **E-NJOY — Project Highlights**
+_🎵 Portable media device for reading e-books, playing music/videos, and viewing images without relying on a phone.
+🖥️ Custom touchscreen interface designed specifically for E-NJOY instead of using a generic desktop UI.
+💾 USB + local storage support for transferring and accessing personal files.
+🔊 Dedicated audio system with an external amplifier and speaker output.
+🔋 Portable battery-powered design intended to work away from a wall outlet._
 
-_**Key Features**_
+_Storage is intended to be local rather than cloud-dependent. This means books, music, videos, images, and other files can remain on the device and be accessed without requiring a phone or constant internet connection._
 
-**📚 E-Book & PDF Reader** — Read EPUBs, PDFs, and other digital documents on the touchscreen.
+E-NJOY is designed as a **standalone portable media device**, with the Raspberry Pi acting as the main computer.
+The software is built around a simple touchscreen interface that lets the user browse files and launch media directly from the device. Storage is handled locally/through SD Card so books, music, videos, and images can be accessed without depending on a phone or internet connection. 
 
-**🎬 Video Player** — Watch locally stored videos without needing a phone or laptop.
+One of the main design decisions is to treat E-NJOY as a **dedicated appliance rather than a miniature desktop computer**. The touchscreen UI therefore focuses on a small number of common actions instead of exposing the full operating system to the user.
 
-**🎵 Music Player** — Play locally stored music through built-in speakers, wired headphones, or Bluetooth audio.
-
-**🖼️Image Gallery** — View personal images and other visual files.
-
-**📁 File Manager** — Browse, organize, copy, and delete files stored on the device.
-
-**🔌 USB File Transfer** — Transfer personal content from USB storage or another device.
-
-**🖥️Touchscreen Interface** — Navigate the device through a simple, dedicated touchscreen dashboard.
-
-**🎧 Multiple Audio Options** — Support for built-in speakers, 3.5 mm wired headphones, and Bluetooth audio.
-
-**📶 Offline Use** — Access downloaded content without requiring a phone or constant internet connection.
-
-**🔋 Portable Design** — Designed to run from a portable power source and be usable away from a desk.
-
-_**Note: These are planned features for E-NJOY V1; the final implementation may change during prototyping.**_
-
-**Thank You**
-Thank you for taking the time to review my E-NJOY project proposal.
-I am excited to turn this idea into a real, working device and document the process so that other students and makers can learn from it.
-Built by a student. Designed for students and makers.
-— _**Mokshgna**_
-
-                                                              E-NJOY
-                                                   Your digital world. Anywhere.
-                                            Open Source • Student Built • Raspberry Pi 5
+Phones and laptops can already perform most of these tasks, but E-NJOY is an experiment in building a **purpose-built personal device** instead of simply using a general-purpose computer.
