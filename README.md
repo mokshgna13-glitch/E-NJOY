@@ -4,9 +4,11 @@ E-NJOY is a product/device designed by adolescents to e-njoy the leisure time wi
 E-NJOY was based on the idea that there is a need for some devices to consume content that are stored in the device itself with touch screen features
 
 
-<img width="1350" height="900" alt="2566db23-8de1-4192-b8fe-844f16029be2" src="https://github.com/user-attachments/assets/8453f02e-089e-4193-bd52-53527dfed407" />
 
-FEATURE:S
+
+FEATURES
+
+E-NJOY currently has a working desktop software prototype demonstrating the planned user interface and offline-media workflow.
 
 1. Local ebook reading
 
