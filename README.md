@@ -1,7 +1,7 @@
-E-NJOY is a portable digital media device designed to let users read books, listen to music, watch videos, view images, and access files through a dedicated touchscreen interface.
+E-NJOY is a product / device made by a teen for every teen out there to **e-njoy** their time when out while watching their fav movies or reading e-books on a train maybe - or anywhere else but _........................._ with no phone or tablet
 
-Problem
-Phones and computers are useful for media, but E-NJOY explores a dedicated device focused on offline digital media and simple touch-based interaction.
+ **E-NJOY explores a dedicated device focused on offline digital media and simple touch-based interaction.**
+Hardware costs 
 
 | #  | Component                                      | Qty   | Unit Cost (USD) | Total (USD) |
 |----|------------------------------------------------|-------|-----------------|-------------|
@@ -29,31 +29,13 @@ Phones and computers are useful for media, but E-NJOY explores a dedicated devic
 |----|------------------------------------------------|-------|-----------------|-------------|
 |    |                                                |       | TOTAL           | ≈ $206.86   |
 
-Software
+**Core features:**
+1.E-BOOK LOCALY PRESENT READING
+2.WATCH LOCALLY STORED VIDEOS
+3.LISTEN TO MUSIC STORE LOCALLY 
+4.HAS SD CARD STORAGE 
+5.NO INTERNET NEEDED
+6.UI IS TOUCHSCREEN
 
-Core features:
-
-📚 E-book reader
-🎵 Music player
-🎬 Video player
-🖼 Image gallery
-📁 USB file browser
-🔊 Volume controls
-⚙ Settings
-🖥 Touch interface
-
-POWER BANK
-    │
-    ▼
-RASPBERRY PI 4
- ┌──┼───────┬──────────┐
- ▼  ▼       ▼          ▼
-SD  DISPLAY BUTTONS   AUDIO
-                         │
-                         ▼
-                      PAM8403
-                      ┌──┴──┐
-                      ▼     ▼
-                   SPK 1  SPK 2
-
-                   
+**AI USAGE**
+I used AI here for none and made all by own
