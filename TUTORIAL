@@ -1,1 +1,40 @@
 
+## Quick Start — Build E-NJOY
+
+1Material List: 
+1] Raspberry Pi 4 Model B 3GB
+2] Rspberry Pi Touch Display 2 — 7"
+3] 64GB microSD card
+4] 10,000mAh USB power bank
+5] PAM8403 stereo amplifier
+6] 2 × 4Ω 3W speakers
+7] 4 × tactile buttons
+8] Jumper wires
+9] 400-point breadboard
+10] Enclosure materials
+
+2Prepare the Raspberry Pi: 
+1]Install Raspberry Pi OS onto the 64GB microSD card.
+2]Insert the card into the Raspberry Pi.
+3]Connect the 7" touchscreen.
+4]Power the Pi using the power bank.
+5]Complete the initial Raspberry Pi setup.
+
+3Build the electronics
+Build the electronics according to the proposed wiring in the schematic folder and THEN CONTINUE-->
+
+4Install the E-NJOY software
+Install it from the software folder 
+
+Run the E-NJOY application from the software/ folder. The touchscreen should display the E-NJOY interface.
+
+5Then test:
+
+Touchscreen
+Buttons
+Audio output
+Speakers
+Power
+E-NJOY interface
+
+**Finally add it to the enclosure and case it and E-NJOY !!
